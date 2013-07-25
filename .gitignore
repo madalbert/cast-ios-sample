@@ -1,9 +1,0 @@
-.DS_Store
-bin/*
-gen/*
-*.class
-*.apk
-*.jar
-*.dex
-.hg/*
-.hgignore
