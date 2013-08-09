@@ -36,8 +36,6 @@ static NSString * const kUserAgent = @"com.google.castsample";
     NSLog(@"Allocating deviceManager");
     self.deviceManager =
         [[GCKDeviceManager alloc] initWithContext:self.mContext];
-    NSLog(@"Setting receiver url.");
-    self.host = @"http://www.yourdomain.com/yourreceiver.html";
     NSLog(@"init complete");
   }
   return self;
